@@ -1,0 +1,152 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*css starts here*/
+body{
+	font-family: 'Roboto', sans-serif;
+}
+
+.wrapper {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+.padding{ 
+	padding: 30px 0;
+}
+.header{
+	background-color: #2E3141;
+	padding: 20px 0;
+	text-align: center;
+}
+.header h1{
+	font-size: 34px;
+	color: white;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+a{
+	font-size: 15px;
+	color: white;
+	text-transform: uppercase;
+	text-decoration: none;
+	margin-left: 16px;
+}
+/*one section*/
+.one{
+	background-color: #2E3141;
+	padding:100px 0;
+	color: #ffffff;
+}
+.onecontent{
+	width: 700px;
+	text-transform: uppercase;
+}
+.onecontent h2{
+	font-size: 30px;
+	margin-bottom: 30px;
+}
+hr{
+	border: 0.5px solid #8E9099;
+	max-width: 1300px;
+	padding: 0 30px;
+}
+.onecontent p{
+	font-size: 20px;
+	margin: 20px 0;
+	line-height: 1.5;
+	color: #8E9099;
+	margin-top: 30px;
+}
+/*article*/
+.article{
+	background-color: #4C5C96;
+}
+.article-heading{
+	font-size: 30px;
+	text-transform: uppercase;
+	color: white;
+	font-weight: bold;
+}
+.image{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	margin: 20px 0;
+}
+.article-intro{
+	font-size: 20px;
+	color: white;
+	line-height: 1.5;
+	margin: 20px 0;
+}
+.article a{
+	color: white;
+	margin-left: 0;
+	font-weight: bold;
+}
+.article2{
+	background-color: #45558D;
+}
+.article2 a{
+	color: white;
+	margin-left: 0;
+	font-weight: bold;
+}
+.article3{
+	background-color: #3F4E85;
+}
+.article3 a{
+	color: white;
+	margin-left: 0;
+	font-weight: bold;
+}
+.footer{
+	background-color: #2E3140;
+	color: #8E9099;
+}
